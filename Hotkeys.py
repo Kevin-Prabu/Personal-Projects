@@ -11,10 +11,12 @@ keyboard.add_hotkey('5',lambda: webbrowser.open("https://github.com/Kevin-Prabu"
 keyboard.add_hotkey('6',lambda: webbrowser.open("https://chatgpt.com/"))
 keyboard.add_hotkey('7',lambda: webbrowser.open("https://classroom.google.com/u/1/"))
 keyboard.add_hotkey('8',lambda: webbrowser.open_new_tab())
-keyboard.add_hotkey('9',lambda: keyboard.write("hello world")) #use this to write a custom message
+keyboard.add_hotkey('9',lambda: keyboard.write("hello world"))
 
 #Use this code below to add more hotkeys, when you are out of numbers use letters rather then using mutliple numbers
 #keyboard.add_hotkey('',lambda: webbrowser.open(""))
+#keyboard.add_hotkey('',lambda: keyboard.write("")) #use this to write a custom message
 
 keyboard.wait('esc')
+
 print("Code has ended")
